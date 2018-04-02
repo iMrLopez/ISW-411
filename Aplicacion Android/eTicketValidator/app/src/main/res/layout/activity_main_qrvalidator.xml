@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="com.mlopezitsolutions.eticketvalidator.main_qrvalidator" >
+
+    <ImageView
+        android:layout_width="222dp"
+        android:layout_height="148dp"
+        app:srcCompat="@drawable/logo"
+        android:id="@+id/img_Logo"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:text="Estimado cliente, seleccione el boton siguiente para validar su entrada."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtv_Description"
+        android:gravity="center"
+        tools:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_Validate"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:onClick="scanQR"
+        android:text="Validar entrada"
+        android:textSize="18dp" >
+    </Button>
+
+    <TextView
+        android:text="Desarrollo por: Marny Lopez."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtv_Disclaimer"
+        android:gravity="center"
+        tools:textSize="24sp" />
+
+    <TextView
+        android:text="Proyecto programacion III cuatrimestre 2016."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtv_Copyright"
+        android:gravity="center"
+        tools:textSize="24sp" />
+
+</LinearLayout>

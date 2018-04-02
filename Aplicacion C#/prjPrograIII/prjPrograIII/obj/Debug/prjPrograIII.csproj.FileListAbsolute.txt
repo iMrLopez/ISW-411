@@ -1,0 +1,40 @@
+E:\OneDrive\Workspace\VisualStudio\prjProgra3\prjPrograIII\prjPrograIII\bin\Debug\prjPrograIII.exe.config
+E:\OneDrive\Workspace\VisualStudio\prjProgra3\prjPrograIII\prjPrograIII\bin\Debug\prjPrograIII.exe
+E:\OneDrive\Workspace\VisualStudio\prjProgra3\prjPrograIII\prjPrograIII\bin\Debug\prjPrograIII.pdb
+E:\OneDrive\Workspace\VisualStudio\prjProgra3\prjPrograIII\prjPrograIII\obj\Debug\prjPrograIII.csprojResolveAssemblyReference.cache
+E:\OneDrive\Workspace\VisualStudio\prjProgra3\prjPrograIII\prjPrograIII\obj\Debug\prjPrograIII.Properties.Resources.resources
+E:\OneDrive\Workspace\VisualStudio\prjProgra3\prjPrograIII\prjPrograIII\obj\Debug\prjPrograIII.csproj.GenerateResource.Cache
+E:\OneDrive\Workspace\VisualStudio\prjProgra3\prjPrograIII\prjPrograIII\obj\Debug\prjPrograIII.exe
+E:\OneDrive\Workspace\VisualStudio\prjProgra3\prjPrograIII\prjPrograIII\obj\Debug\prjPrograIII.pdb
+E:\OneDrive\Workspace\VisualStudio\prjProgra3\prjPrograIII\prjPrograIII\obj\Debug\prjPrograIII.frmLogin.resources
+E:\OneDrive\Workspace\VisualStudio\prjProgra3\prjPrograIII\prjPrograIII\obj\Debug\prjPrograIII.frmMainMenu.resources
+E:\OneDrive\Workspace\ProyectoProgra\Aplicacion C#\prjPrograIII\prjPrograIII\bin\Debug\prjPrograIII.exe.config
+E:\OneDrive\Workspace\ProyectoProgra\Aplicacion C#\prjPrograIII\prjPrograIII\bin\Debug\prjPrograIII.exe
+E:\OneDrive\Workspace\ProyectoProgra\Aplicacion C#\prjPrograIII\prjPrograIII\bin\Debug\prjPrograIII.pdb
+E:\OneDrive\Workspace\ProyectoProgra\Aplicacion C#\prjPrograIII\prjPrograIII\bin\Debug\iTextSharp.dll
+E:\OneDrive\Workspace\ProyectoProgra\Aplicacion C#\prjPrograIII\prjPrograIII\bin\Debug\MessagingToolkit.QRCode.dll
+E:\OneDrive\Workspace\ProyectoProgra\Aplicacion C#\prjPrograIII\prjPrograIII\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+E:\OneDrive\Workspace\ProyectoProgra\Aplicacion C#\prjPrograIII\prjPrograIII\bin\Debug\Interop.AcroPDFLib.dll
+E:\OneDrive\Workspace\ProyectoProgra\Aplicacion C#\prjPrograIII\prjPrograIII\bin\Debug\AxInterop.AcroPDFLib.dll
+E:\OneDrive\Workspace\ProyectoProgra\Aplicacion C#\prjPrograIII\prjPrograIII\obj\Debug\Interop.AcroPDFLib.dll
+E:\OneDrive\Workspace\ProyectoProgra\Aplicacion C#\prjPrograIII\prjPrograIII\obj\Debug\AxInterop.AcroPDFLib.dll
+E:\OneDrive\Workspace\ProyectoProgra\Aplicacion C#\prjPrograIII\prjPrograIII\obj\Debug\prjPrograIII.csproj.ResolveComReference.cache
+E:\OneDrive\Workspace\ProyectoProgra\Aplicacion C#\prjPrograIII\prjPrograIII\obj\Debug\prjPrograIII.frmCliente.resources
+E:\OneDrive\Workspace\ProyectoProgra\Aplicacion C#\prjPrograIII\prjPrograIII\obj\Debug\prjPrograIII.frmEvento.resources
+E:\OneDrive\Workspace\ProyectoProgra\Aplicacion C#\prjPrograIII\prjPrograIII\obj\Debug\prjPrograIII.frmLocalidad.resources
+E:\OneDrive\Workspace\ProyectoProgra\Aplicacion C#\prjPrograIII\prjPrograIII\obj\Debug\prjPrograIII.frmRealizarVenta.resources
+E:\OneDrive\Workspace\ProyectoProgra\Aplicacion C#\prjPrograIII\prjPrograIII\obj\Debug\prjPrograIII.frmTipoEvento.resources
+E:\OneDrive\Workspace\ProyectoProgra\Aplicacion C#\prjPrograIII\prjPrograIII\obj\Debug\prjPrograIII.frmEmpleado.resources
+E:\OneDrive\Workspace\ProyectoProgra\Aplicacion C#\prjPrograIII\prjPrograIII\obj\Debug\prjPrograIII.frmMainMenu.resources
+E:\OneDrive\Workspace\ProyectoProgra\Aplicacion C#\prjPrograIII\prjPrograIII\obj\Debug\prjPrograIII.frmLogin.resources
+E:\OneDrive\Workspace\ProyectoProgra\Aplicacion C#\prjPrograIII\prjPrograIII\obj\Debug\prjPrograIII.Layer.User_Interface.frmValidarVenta.resources
+E:\OneDrive\Workspace\ProyectoProgra\Aplicacion C#\prjPrograIII\prjPrograIII\obj\Debug\prjPrograIII.Properties.Resources.resources
+E:\OneDrive\Workspace\ProyectoProgra\Aplicacion C#\prjPrograIII\prjPrograIII\obj\Debug\prjPrograIII.Util.Utl_SignatureDrawer.resources
+E:\OneDrive\Workspace\ProyectoProgra\Aplicacion C#\prjPrograIII\prjPrograIII\obj\Debug\prjPrograIII.csproj.GenerateResource.Cache
+E:\OneDrive\Workspace\ProyectoProgra\Aplicacion C#\prjPrograIII\prjPrograIII\obj\Debug\RdlCompile.cache
+E:\OneDrive\Workspace\ProyectoProgra\Aplicacion C#\prjPrograIII\prjPrograIII\obj\Debug\RdlCompile.compiled
+E:\OneDrive\Workspace\ProyectoProgra\Aplicacion C#\prjPrograIII\prjPrograIII\obj\Debug\prjPrograIII.exe
+E:\OneDrive\Workspace\ProyectoProgra\Aplicacion C#\prjPrograIII\prjPrograIII\obj\Debug\prjPrograIII.pdb
+E:\OneDrive\Workspace\ProyectoProgra\Aplicacion C#\prjPrograIII\prjPrograIII\bin\Debug\log4net.dll
+E:\OneDrive\Workspace\ProyectoProgra\Aplicacion C#\prjPrograIII\prjPrograIII\bin\Debug\log4net.xml
+E:\OneDrive\Workspace\ProyectoProgra\Aplicacion C#\prjPrograIII\prjPrograIII\obj\Debug\prjPrograIII.csprojResolveAssemblyReference.cache

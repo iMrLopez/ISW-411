@@ -1,0 +1,5 @@
+<map id="prjPrograIII.frmTipoEvento.frmTipoEvento" name="prjPrograIII.frmTipoEvento.frmTipoEvento">
+<area shape="rect" id="node2" href="$interface_interfaces_1_1_i_b_l_l_tipo_evento.html#a6ef15f72eee8239388905aed3c4d3ad5" title="Interfaces.IBLLTipoEvento.\lBorrar" alt="" coords="244,5,419,47"/>
+<area shape="rect" id="node3" href="$interface_interfaces_1_1_i_b_l_l_tipo_evento.html#a9491bc76d279f88a5f33ce3a63c84302" title="Interfaces.IBLLTipoEvento.\lGetAll" alt="" coords="244,71,419,112"/>
+<area shape="rect" id="node4" href="$interface_interfaces_1_1_i_b_l_l_tipo_evento.html#abe3b18cdc875d0c08853478dd9720af4" title="Interfaces.IBLLTipoEvento.\lInsert" alt="" coords="244,136,419,177"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="prjPrograIII.frmEmpleado.frmEmpleado" name="prjPrograIII.frmEmpleado.frmEmpleado">
+<area shape="rect" id="node2" href="$interface_interfaces_1_1_i_b_l_l_empleado.html#af28eb97c31bd09546d3ececa39800ae4" title="Interfaces.IBLLEmpleado.\lGetAll" alt="" coords="239,5,409,47"/>
+<area shape="rect" id="node3" href="$interface_interfaces_1_1_i_b_l_l_empleado.html#a284b5811be96490bc0567612f428e8a5" title="Interfaces.IBLLEmpleado.\lBorrarEmpleado" alt="" coords="239,71,409,112"/>
+<area shape="rect" id="node4" href="$interface_interfaces_1_1_i_b_l_l_empleado.html#ae42950dd884578920123132ef21224b1" title="Interfaces.IBLLEmpleado.\lInsert" alt="" coords="239,136,409,177"/>
+</map>

@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DDB7E771-2A3D-4342-A91F-489B26496003}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>prjPrograIII</RootNamespace>
+    <AssemblyName>prjPrograIII</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>prjPrograIII.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="iTextSharp, Version=4.1.6.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca">
+      <HintPath>..\packages\iTextSharp-LGPL.4.1.6\lib\iTextSharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.5\lib\net45-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MessagingToolkit.QRCode, Version=1.0.3541.23206, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\MessagingToolkit.QRCode.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Enum\TipoTarjeta.cs" />
+    <Compile Include="Enum\EstadoMantenimiento.cs" />
+    <Compile Include="Enum\EstadoEvento.cs" />
+    <Compile Include="Enum\Sexo.cs" />
+    <Compile Include="Enum\TipoEmpleado.cs" />
+    <Compile Include="Interface\IBLLVentaDetalle.cs" />
+    <Compile Include="Interface\IBLLVentaCabecera.cs" />
+    <Compile Include="Interface\IBLLEvento.cs" />
+    <Compile Include="Interface\IBLLLocalidad.cs" />
+    <Compile Include="Interface\IBLLTipoEvento.cs" />
+    <Compile Include="Interface\IBLLEmpleado.cs" />
+    <Compile Include="Interface\IBLLCliente.cs" />
+    <Compile Include="Interface\IBLLLogin.cs" />
+    <Compile Include="Interface\IDALReports.cs" />
+    <Compile Include="Interface\IDALVentaDetalle.cs" />
+    <Compile Include="Interface\IDALVentaCabecera.cs" />
+    <Compile Include="Interface\IDALEvento.cs" />
+    <Compile Include="Interface\IDALLocalidad.cs" />
+    <Compile Include="Interface\IDALTipoEvento.cs" />
+    <Compile Include="Interface\IDALEmpleado.cs" />
+    <Compile Include="Interface\IDALNacionalidad.cs" />
+    <Compile Include="Interface\IDALCliente.cs" />
+    <Compile Include="Interface\IDALLogin.cs" />
+    <Compile Include="Layer\Business Logic\BLLVentaDetalle.cs" />
+    <Compile Include="Layer\Business Logic\BLLVentaCabecera.cs" />
+    <Compile Include="Layer\Business Logic\BLLCliente.cs" />
+    <Compile Include="Layer\Business Logic\BLLEvento.cs" />
+    <Compile Include="Layer\Business Logic\BLLLocalidad.cs" />
+    <Compile Include="Layer\Business Logic\BLLTipoEvento.cs" />
+    <Compile Include="Layer\Business Logic\BLLEmpleado.cs" />
+    <Compile Include="Layer\Business Logic\BLLLogin.cs" />
+    <Compile Include="Layer\DAL\DALReports.cs" />
+    <Compile Include="Layer\DAL\DALVentaDetalle.cs" />
+    <Compile Include="Layer\DAL\DALVentaCabecera.cs" />
+    <Compile Include="Layer\DAL\DALEvento.cs" />
+    <Compile Include="Layer\DAL\DALLocalidad.cs" />
+    <Compile Include="Layer\DAL\DALTipoEvento.cs" />
+    <Compile Include="Layer\DAL\DALEmpleado.cs" />
+    <Compile Include="Layer\DAL\DALCliente.cs" />
+    <Compile Include="Layer\DAL\DALLogin.cs" />
+    <Compile Include="Layer\DAL\DALNacionalidad.cs" />
+    <Compile Include="Layer\DAL\Persistence\DataBase.cs" />
+    <Compile Include="Layer\DAL\Persistence\DatabaseFactory.cs" />
+    <Compile Include="Layer\DAL\Persistence\FactoryConexion.cs" />
+    <Compile Include="Layer\Entities\Tarjeta.cs" />
+    <Compile Include="Layer\Entities\VentaDetalle.cs" />
+    <Compile Include="Layer\Entities\VentaCabecera.cs" />
+    <Compile Include="Layer\Entities\Empleado.cs" />
+    <Compile Include="Layer\Entities\Cliente.cs" />
+    <Compile Include="Layer\Entities\Evento.cs" />
+    <Compile Include="Layer\Entities\Localidad.cs" />
+    <Compile Include="Layer\Entities\Nacionalidad.cs" />
+    <Compile Include="Layer\Entities\TipoEvento.cs" />
+    <Compile Include="Layer\Entities\Usuario.cs" />
+    <Compile Include="Layer\User Interface\frmCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Layer\User Interface\frmCliente.Designer.cs">
+      <DependentUpon>frmCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layer\User Interface\frmEvento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Layer\User Interface\frmEvento.Designer.cs">
+      <DependentUpon>frmEvento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layer\User Interface\frmLocalidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Layer\User Interface\frmLocalidad.Designer.cs">
+      <DependentUpon>frmLocalidad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layer\User Interface\frmRealizarVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Layer\User Interface\frmRealizarVenta.Designer.cs">
+      <DependentUpon>frmRealizarVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layer\User Interface\frmTipoEvento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Layer\User Interface\frmTipoEvento.Designer.cs">
+      <DependentUpon>frmTipoEvento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layer\User Interface\frmEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Layer\User Interface\frmEmpleado.Designer.cs">
+      <DependentUpon>frmEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layer\User Interface\frmMainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Layer\User Interface\frmMainMenu.Designer.cs">
+      <DependentUpon>frmMainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layer\User Interface\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Layer\User Interface\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layer\User Interface\frmValidarVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Layer\User Interface\frmValidarVenta.Designer.cs">
+      <DependentUpon>frmValidarVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrjPrograIIIDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrjPrograIIIDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="rpt_FreeSpacesOnEvent.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_FreeSpacesOnEvent.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Util\Utl_PdfGenerator.cs" />
+    <Compile Include="Util\Utl_QrGenerator.cs" />
+    <Compile Include="Util\Utl_SignatureDrawer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Util\Utl_SignatureDrawer.Designer.cs">
+      <DependentUpon>Utl_SignatureDrawer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Util\Utl_CardVerifier.cs" />
+    <Compile Include="Util\Utl_CulturePicker.cs" />
+    <Compile Include="Util\Utl_EmailSender.cs" />
+    <Compile Include="Util\Utl_VerifyAdmin.cs" />
+    <EmbeddedResource Include="Layer\User Interface\frmCliente.resx">
+      <DependentUpon>frmCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layer\User Interface\frmEvento.resx">
+      <DependentUpon>frmEvento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layer\User Interface\frmLocalidad.resx">
+      <DependentUpon>frmLocalidad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layer\User Interface\frmRealizarVenta.resx">
+      <DependentUpon>frmRealizarVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layer\User Interface\frmTipoEvento.resx">
+      <DependentUpon>frmTipoEvento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layer\User Interface\frmEmpleado.resx">
+      <DependentUpon>frmEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layer\User Interface\frmMainMenu.resx">
+      <DependentUpon>frmMainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layer\User Interface\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layer\User Interface\frmValidarVenta.resx">
+      <DependentUpon>frmValidarVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporting\Rpt_EmptySeats.rdlc" />
+    <EmbeddedResource Include="Reporting\Rpt_SalesByRange.rdlc" />
+    <EmbeddedResource Include="Util\Utl_SignatureDrawer.resx">
+      <DependentUpon>Utl_SignatureDrawer.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Diagrams\ClassDiagram1.cd" />
+    <None Include="packages.config" />
+    <None Include="PrjPrograIIIDataSet.xsc">
+      <DependentUpon>PrjPrograIIIDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PrjPrograIIIDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PrjPrograIIIDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PrjPrograIIIDataSet.xss">
+      <DependentUpon>PrjPrograIIIDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="rpt_FreeSpacesOnEvent.xsc">
+      <DependentUpon>rpt_FreeSpacesOnEvent.xsd</DependentUpon>
+    </None>
+    <None Include="rpt_FreeSpacesOnEvent.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>rpt_FreeSpacesOnEvent.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="rpt_FreeSpacesOnEvent.xss">
+      <DependentUpon>rpt_FreeSpacesOnEvent.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\buy.png" />
+    <Content Include="Resources\checked.png" />
+    <Content Include="Resources\add.png" />
+    <Content Include="Resources\calendar.png" />
+    <Content Include="Resources\checklist.png" />
+    <Content Include="Resources\credit-card-with-check-symbol.png" />
+    <Content Include="Resources\curriculum.png" />
+    <Content Include="Resources\Default-Person.png" />
+    <Content Include="Resources\delete.png" />
+    <Content Include="Resources\download-button.png" />
+    <Content Include="Resources\Drawable\bg.png" />
+    <Content Include="Resources\Drawable\icon\close-button.png" />
+    <Content Include="Resources\edit.png" />
+    <Content Include="Resources\idea.png" />
+    <Content Include="Resources\list.png" />
+    <Content Include="Resources\manager.png" />
+    <None Include="Resources\process.png" />
+    <Content Include="Resources\MessagingToolkit.QRCode.dll" />
+    <Content Include="Resources\preview.png" />
+    <Content Include="Resources\save.png" />
+    <Content Include="Resources\search.png" />
+    <Content Include="Resources\send.png" />
+    <Content Include="Resources\shopping-basket.png" />
+    <Content Include="Resources\signing-the-contract.png" />
+    <Content Include="Resources\user.png" />
+    <Content Include="Resources\vs-reader-qr.jpg" />
+    <Content Include="Resources\worldwide.png" />
+    <None Include="Resources\Drawable\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxAcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

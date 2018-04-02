@@ -1,0 +1,176 @@
+\hypertarget{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager}{}\section{prj\+Progra\+I\+I\+I.\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters.\+Table\+Adapter\+Manager Class Reference}
+\label{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager}\index{prj\+Progra\+I\+I\+I.\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters.\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I.\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters.\+Table\+Adapter\+Manager}}
+
+
+\hyperlink{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager}{Table\+Adapter\+Manager} is used to coordinate Table\+Adapters in the dataset to enable Hierarchical Update scenarios /summary$>$  
+
+
+
+
+Inheritance diagram for prj\+Progra\+I\+I\+I.\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters.\+Table\+Adapter\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=271pt]{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for prj\+Progra\+I\+I\+I.\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters.\+Table\+Adapter\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=271pt]{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager_ada8b937dd32f0e82f86deb1a45b384a6}{Update\+Order\+Option} \{ \hyperlink{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager_ada8b937dd32f0e82f86deb1a45b384a6a27b77cb15d3da7ded0250d0001bc6755}{Update\+Order\+Option.\+Insert\+Update\+Delete} = 0, 
+\hyperlink{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager_ada8b937dd32f0e82f86deb1a45b384a6a894fcc001e51f673d3fb5f3096473dd8}{Update\+Order\+Option.\+Update\+Insert\+Delete} = 1
+ \}\begin{DoxyCompactList}\small\item\em Update Order Option /summary$>$ \end{DoxyCompactList}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual int \hyperlink{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager_afa01f84fa5f134c63c7eb3e08a8da05d}{Update\+All} (\hyperlink{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set}{Prj\+Progra\+I\+I\+I\+Data\+Set} data\+Set)
+\begin{DoxyCompactList}\small\item\em Update all changes to the dataset. /summary$>$ \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \hyperlink{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager_acc9e867d0c21719f04a2d4c6f2d21fdd}{Sort\+Self\+Reference\+Rows} (global\+::\+System.\+Data.\+Data\+Row\mbox{[}$\,$\mbox{]} rows, global\+::\+System.\+Data.\+Data\+Relation relation, bool child\+First)
+\item 
+virtual bool \hyperlink{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager_abc4a149066f1153ecb0e994b879e4c5b}{Match\+Table\+Adapter\+Connection} (global\+::\+System.\+Data.\+I\+Db\+Connection input\+Connection)
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager_ada8b937dd32f0e82f86deb1a45b384a6}{Update\+Order\+Option} \hyperlink{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager_a8e1c2276fcfafd8bb10f7ebfd26710a3}{Update\+Order}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+bool \hyperlink{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager_aef3198709057aac0bb3786f3f6450d50}{Backup\+Data\+Set\+Before\+Update}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+global\+::\+System.\+Data.\+I\+Db\+Connection \hyperlink{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager_a9d6da15969a038b43f7c48db53c03ea5}{Connection}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+int \hyperlink{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager_a7cbe32dfd6a78698458c3c2b99746333}{Table\+Adapter\+Instance\+Count}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager}{Table\+Adapter\+Manager} is used to coordinate Table\+Adapters in the dataset to enable Hierarchical Update scenarios /summary$>$ 
+
+Definition at line 937 of file Prj\+Progra\+I\+I\+I\+Data\+Set.\+Designer.\+cs.
+
+
+
+\subsection{Member Enumeration Documentation}
+\hypertarget{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager_ada8b937dd32f0e82f86deb1a45b384a6}{}\label{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager_ada8b937dd32f0e82f86deb1a45b384a6} 
+\index{prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager}!Update\+Order\+Option@{Update\+Order\+Option}}
+\index{Update\+Order\+Option@{Update\+Order\+Option}!prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager}}
+\subsubsection{\texorpdfstring{Update\+Order\+Option}{UpdateOrderOption}}
+{\footnotesize\ttfamily enum \hyperlink{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager_ada8b937dd32f0e82f86deb1a45b384a6}{prj\+Progra\+I\+I\+I.\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters.\+Table\+Adapter\+Manager.\+Update\+Order\+Option}\hspace{0.3cm}{\ttfamily [strong]}}
+
+
+
+Update Order Option /summary$>$ 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Insert\+Update\+Delete@{Insert\+Update\+Delete}!prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager}}\index{prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager}!Insert\+Update\+Delete@{Insert\+Update\+Delete}}}\hypertarget{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager_ada8b937dd32f0e82f86deb1a45b384a6a27b77cb15d3da7ded0250d0001bc6755}{}\label{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager_ada8b937dd32f0e82f86deb1a45b384a6a27b77cb15d3da7ded0250d0001bc6755} 
+Insert\+Update\+Delete&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Update\+Insert\+Delete@{Update\+Insert\+Delete}!prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager}}\index{prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager}!Update\+Insert\+Delete@{Update\+Insert\+Delete}}}\hypertarget{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager_ada8b937dd32f0e82f86deb1a45b384a6a894fcc001e51f673d3fb5f3096473dd8}{}\label{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager_ada8b937dd32f0e82f86deb1a45b384a6a894fcc001e51f673d3fb5f3096473dd8} 
+Update\+Insert\+Delete&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+Definition at line 1186 of file Prj\+Progra\+I\+I\+I\+Data\+Set.\+Designer.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager_abc4a149066f1153ecb0e994b879e4c5b}{}\label{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager_abc4a149066f1153ecb0e994b879e4c5b} 
+\index{prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager}!Match\+Table\+Adapter\+Connection@{Match\+Table\+Adapter\+Connection}}
+\index{Match\+Table\+Adapter\+Connection@{Match\+Table\+Adapter\+Connection}!prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager}}
+\subsubsection{\texorpdfstring{Match\+Table\+Adapter\+Connection()}{MatchTableAdapterConnection()}}
+{\footnotesize\ttfamily virtual bool prj\+Progra\+I\+I\+I.\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters.\+Table\+Adapter\+Manager.\+Match\+Table\+Adapter\+Connection (\begin{DoxyParamCaption}\item[{global\+::\+System.\+Data.\+I\+Db\+Connection}]{input\+Connection }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Definition at line 1168 of file Prj\+Progra\+I\+I\+I\+Data\+Set.\+Designer.\+cs.
+
+\hypertarget{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager_acc9e867d0c21719f04a2d4c6f2d21fdd}{}\label{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager_acc9e867d0c21719f04a2d4c6f2d21fdd} 
+\index{prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager}!Sort\+Self\+Reference\+Rows@{Sort\+Self\+Reference\+Rows}}
+\index{Sort\+Self\+Reference\+Rows@{Sort\+Self\+Reference\+Rows}!prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager}}
+\subsubsection{\texorpdfstring{Sort\+Self\+Reference\+Rows()}{SortSelfReferenceRows()}}
+{\footnotesize\ttfamily virtual void prj\+Progra\+I\+I\+I.\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters.\+Table\+Adapter\+Manager.\+Sort\+Self\+Reference\+Rows (\begin{DoxyParamCaption}\item[{global\+::\+System.\+Data.\+Data\+Row \mbox{[}$\,$\mbox{]}}]{rows,  }\item[{global\+::\+System.\+Data.\+Data\+Relation}]{relation,  }\item[{bool}]{child\+First }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Definition at line 1162 of file Prj\+Progra\+I\+I\+I\+Data\+Set.\+Designer.\+cs.
+
+\hypertarget{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager_afa01f84fa5f134c63c7eb3e08a8da05d}{}\label{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager_afa01f84fa5f134c63c7eb3e08a8da05d} 
+\index{prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager}!Update\+All@{Update\+All}}
+\index{Update\+All@{Update\+All}!prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager}}
+\subsubsection{\texorpdfstring{Update\+All()}{UpdateAll()}}
+{\footnotesize\ttfamily virtual int prj\+Progra\+I\+I\+I.\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters.\+Table\+Adapter\+Manager.\+Update\+All (\begin{DoxyParamCaption}\item[{\hyperlink{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set}{Prj\+Progra\+I\+I\+I\+Data\+Set}}]{data\+Set }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Update all changes to the dataset. /summary$>$ 
+
+
+
+Definition at line 1051 of file Prj\+Progra\+I\+I\+I\+Data\+Set.\+Designer.\+cs.
+
+
+
+\subsection{Property Documentation}
+\hypertarget{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager_aef3198709057aac0bb3786f3f6450d50}{}\label{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager_aef3198709057aac0bb3786f3f6450d50} 
+\index{prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager}!Backup\+Data\+Set\+Before\+Update@{Backup\+Data\+Set\+Before\+Update}}
+\index{Backup\+Data\+Set\+Before\+Update@{Backup\+Data\+Set\+Before\+Update}!prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager}}
+\subsubsection{\texorpdfstring{Backup\+Data\+Set\+Before\+Update}{BackupDataSetBeforeUpdate}}
+{\footnotesize\ttfamily bool prj\+Progra\+I\+I\+I.\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters.\+Table\+Adapter\+Manager.\+Backup\+Data\+Set\+Before\+Update\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 958 of file Prj\+Progra\+I\+I\+I\+Data\+Set.\+Designer.\+cs.
+
+\hypertarget{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager_a9d6da15969a038b43f7c48db53c03ea5}{}\label{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager_a9d6da15969a038b43f7c48db53c03ea5} 
+\index{prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager}!Connection@{Connection}}
+\index{Connection@{Connection}!prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager}}
+\subsubsection{\texorpdfstring{Connection}{Connection}}
+{\footnotesize\ttfamily global.\+System.\+Data.\+I\+Db\+Connection prj\+Progra\+I\+I\+I.\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters.\+Table\+Adapter\+Manager.\+Connection\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 970 of file Prj\+Progra\+I\+I\+I\+Data\+Set.\+Designer.\+cs.
+
+\hypertarget{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager_a7cbe32dfd6a78698458c3c2b99746333}{}\label{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager_a7cbe32dfd6a78698458c3c2b99746333} 
+\index{prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager}!Table\+Adapter\+Instance\+Count@{Table\+Adapter\+Instance\+Count}}
+\index{Table\+Adapter\+Instance\+Count@{Table\+Adapter\+Instance\+Count}!prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager}}
+\subsubsection{\texorpdfstring{Table\+Adapter\+Instance\+Count}{TableAdapterInstanceCount}}
+{\footnotesize\ttfamily int prj\+Progra\+I\+I\+I.\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters.\+Table\+Adapter\+Manager.\+Table\+Adapter\+Instance\+Count\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 985 of file Prj\+Progra\+I\+I\+I\+Data\+Set.\+Designer.\+cs.
+
+\hypertarget{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager_a8e1c2276fcfafd8bb10f7ebfd26710a3}{}\label{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager_a8e1c2276fcfafd8bb10f7ebfd26710a3} 
+\index{prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager}!Update\+Order@{Update\+Order}}
+\index{Update\+Order@{Update\+Order}!prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters\+::\+Table\+Adapter\+Manager}}
+\subsubsection{\texorpdfstring{Update\+Order}{UpdateOrder}}
+{\footnotesize\ttfamily \hyperlink{classprj_progra_i_i_i_1_1_prj_progra_i_i_i_data_set_table_adapters_1_1_table_adapter_manager_ada8b937dd32f0e82f86deb1a45b384a6}{Update\+Order\+Option} prj\+Progra\+I\+I\+I.\+Prj\+Progra\+I\+I\+I\+Data\+Set\+Table\+Adapters.\+Table\+Adapter\+Manager.\+Update\+Order\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 947 of file Prj\+Progra\+I\+I\+I\+Data\+Set.\+Designer.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+One\+Drive/\+Workspace/\+Proyecto\+Progra/\+Aplicacion C\#/prj\+Progra\+I\+I\+I/prj\+Progra\+I\+I\+I/\hyperlink{_prj_progra_i_i_i_data_set_8_designer_8cs}{Prj\+Progra\+I\+I\+I\+Data\+Set.\+Designer.\+cs}\end{DoxyCompactItemize}

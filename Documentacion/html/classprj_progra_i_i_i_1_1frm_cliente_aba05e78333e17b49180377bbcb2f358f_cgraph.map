@@ -1,0 +1,7 @@
+<map id="prjPrograIII.frmCliente.frmCliente" name="prjPrograIII.frmCliente.frmCliente">
+<area shape="rect" id="node2" href="$interface_interfaces_1_1_i_d_a_l_nacionalidad.html#a9c4069ad5642445a09d011062b91c9f5" title="Interfaces.IDALNacionalidad.\lGetAll" alt="" coords="229,5,417,47"/>
+<area shape="rect" id="node3" href="$classprj_progra_i_i_i_1_1_layer_1_1_business___logic_1_1_b_l_l_cliente.html#a11c1c268ae9a534cb7a3ff7f46d66f3e" title="prjPrograIII.Layer.Business\l_Logic.BLLCliente.BorrarCliente" alt="" coords="220,71,427,112"/>
+<area shape="rect" id="node6" href="$interface_interfaces_1_1_i_b_l_l_cliente.html#aaf2e62f3c57006ecf12ba4559a70448d" title="Interfaces.IBLLCliente.Insert" alt="" coords="231,137,415,163"/>
+<area shape="rect" id="node4" href="$interface_interfaces_1_1_i_d_a_l_cliente.html#a1d5922d64bfd29e76bc6f26c60230c15" title="Interfaces.IDALCliente.Delete" alt="" coords="475,53,665,79"/>
+<area shape="rect" id="node5" href="$interface_interfaces_1_1_i_d_a_l_cliente.html#ac6adab4e78fae5e2bb08bff403d83fe7" title="Interfaces.IDALCliente.GetAll" alt="" coords="475,103,665,130"/>
+</map>

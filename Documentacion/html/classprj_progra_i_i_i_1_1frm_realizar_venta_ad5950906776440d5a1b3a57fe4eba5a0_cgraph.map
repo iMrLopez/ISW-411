@@ -1,0 +1,12 @@
+<map id="prjPrograIII.frmRealizarVenta.frmRealizarVenta" name="prjPrograIII.frmRealizarVenta.frmRealizarVenta">
+<area shape="rect" id="node2" href="$interface_interfaces_1_1_i_b_l_l_evento.html#ace54abf5be3a6b759890104aeebd6d62" title="Interfaces.IBLLEvento.Get\lActiveEvents" alt="" coords="254,5,426,47"/>
+<area shape="rect" id="node3" href="$interface_interfaces_1_1_i_d_a_l_cliente.html#a73ffe691596e644e3b87f7685dc19e42" title="Interfaces.IDALCliente.Get" alt="" coords="253,71,427,98"/>
+<area shape="rect" id="node4" href="$interface_interfaces_1_1_i_d_a_l_cliente.html#a11ca3e48a2e757780fd59a2bd85e522f" title="Interfaces.IDALCliente.Get\lByName" alt="" coords="253,123,427,164"/>
+<area shape="rect" id="node5" href="$classprj_progra_i_i_i_1_1_layer_1_1_entities_1_1_venta_cabecera.html#a74d25a78b7a948f486fc6c850cea3b43" title="Prepares a string to be shown to client on screen " alt="" coords="516,317,700,359"/>
+<area shape="rect" id="node6" href="$classprj_progra_i_i_i_1_1_util_1_1_utl___card_verifier.html#ad387c83560ed0b90ab57ce4e529d3e12" title="prjPrograIII.Util.Utl\l_CardVerifier.LuhnCheck" alt="" coords="257,240,423,281"/>
+<area shape="rect" id="node7" href="$classprj_progra_i_i_i_1_1_util_1_1_utl___signature_drawer.html#a6cb8f4b8ebff26bc7ce3cdf2a5ff489b" title="prjPrograIII.Util.Utl\l_SignatureDrawer.Utl\l_SignatureDrawer" alt="" coords="268,306,412,362"/>
+<area shape="rect" id="node8" href="$interface_interfaces_1_1_i_b_l_l_venta_cabecera.html#a28aab27efa8b0bfbac32d24d814e7a76" title="Interfaces.IBLLVentaCabecera.\lInsert" alt="" coords="239,387,441,428"/>
+<area shape="rect" id="node9" href="$classprj_progra_i_i_i_1_1_util_1_1_utl___pdf_generator.html#ab6b2282b30233a0f0292378aa9c5779d" title="This generates the invoice on C:.pdf to be used by the program " alt="" coords="239,452,441,493"/>
+<area shape="rect" id="node10" href="$classprj_progra_i_i_i_1_1_util_1_1_utl___qr_generator.html#aa38b9204027dbb99f61c2fb0edd24fdf" title="Método que devuelve un la imagen generada El primer parámetro es la palabra(s) a convertir y el segun..." alt="" coords="212,517,468,559"/>
+<area shape="rect" id="node11" href="$classprj_progra_i_i_i_1_1_util_1_1_utl___email_sender.html#ab95747aa262d37b41440536d14f40d29" title="prjPrograIII.Util.Utl\l_EmailSender.SendEmail" alt="" coords="255,583,425,624"/>
+</map>

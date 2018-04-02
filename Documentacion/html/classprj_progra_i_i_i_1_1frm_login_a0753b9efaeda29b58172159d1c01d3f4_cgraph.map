@@ -1,0 +1,5 @@
+<map id="prjPrograIII.frmLogin.frmLogin" name="prjPrograIII.frmLogin.frmLogin">
+<area shape="rect" id="node2" href="$interface_interfaces_1_1_i_b_l_l_login.html#a809da754cba4a38c15fd18a7bd9cb95a" title="Interfaces.IBLLLogin.Login" alt="" coords="212,5,387,32"/>
+<area shape="rect" id="node3" href="$classprj_progra_i_i_i_1_1_layer_1_1_entities_1_1_usuario.html#a54df50298c6cc60b0b8a6843f5c88d83" title="prjPrograIII.Layer.Entities.\lUsuario.GetInstance" alt="" coords="214,57,385,98"/>
+<area shape="rect" id="node4" href="$interface_interfaces_1_1_i_b_l_l_empleado.html#a9eea24cebb452257b579be1c998f4a98" title="Interfaces.IBLLEmpleado.Get" alt="" coords="435,64,625,91"/>
+</map>

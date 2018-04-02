@@ -1,0 +1,7 @@
+<map id="prjPrograIII.Layer.Entities.Nacionalidad.ToString" name="prjPrograIII.Layer.Entities.Nacionalidad.ToString">
+<area shape="rect" id="node2" href="$classprj_progra_i_i_i_1_1_layer_1_1_d_a_l_1_1_d_a_l_nacionalidad.html#aaae73fec1bc1e05c37358116139ce47a" title="prjPrograIII.Layer.DAL.DALNacionalidad.Get" alt="" coords="224,71,500,98"/>
+<area shape="rect" id="node6" href="$classprj_progra_i_i_i_1_1_layer_1_1_d_a_l_1_1_d_a_l_nacionalidad.html#a7a851ef044363eb2a9be47aaa154b40b" title="prjPrograIII.Layer.DAL.DALNacionalidad.\lGetAll" alt="" coords="235,123,489,164"/>
+<area shape="rect" id="node3" href="$classprj_progra_i_i_i_1_1_layer_1_1_d_a_l_1_1_d_a_l_cliente.html#a7c513194970afd18572e1b93bb8ba4d9" title="prjPrograIII.Layer.DAL.DALCliente.\lGetAll" alt="" coords="559,5,780,47"/>
+<area shape="rect" id="node4" href="$classprj_progra_i_i_i_1_1_layer_1_1_d_a_l_1_1_d_a_l_cliente.html#a4012b382e3da25b5300a46f05a81efb3" title="prjPrograIII.Layer.DAL.DALCliente.Get" alt="" coords="548,71,791,98"/>
+<area shape="rect" id="node5" href="$classprj_progra_i_i_i_1_1_layer_1_1_d_a_l_1_1_d_a_l_cliente.html#ad65a26a4c49f914716a21169e79815c8" title="prjPrograIII.Layer.DAL.DALCliente.\lGetByName" alt="" coords="559,123,780,164"/>
+</map>

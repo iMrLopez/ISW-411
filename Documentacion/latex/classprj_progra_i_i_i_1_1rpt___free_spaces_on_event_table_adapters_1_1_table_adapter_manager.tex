@@ -1,0 +1,176 @@
+\hypertarget{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager}{}\section{prj\+Progra\+I\+I\+I.\+rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters.\+Table\+Adapter\+Manager Class Reference}
+\label{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager}\index{prj\+Progra\+I\+I\+I.\+rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters.\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I.\+rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters.\+Table\+Adapter\+Manager}}
+
+
+\hyperlink{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager}{Table\+Adapter\+Manager} is used to coordinate Table\+Adapters in the dataset to enable Hierarchical Update scenarios /summary$>$  
+
+
+
+
+Inheritance diagram for prj\+Progra\+I\+I\+I.\+rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters.\+Table\+Adapter\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=256pt]{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for prj\+Progra\+I\+I\+I.\+rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters.\+Table\+Adapter\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=256pt]{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager_a9cfd63ba078114fdb1994cfe5f0d2eeb}{Update\+Order\+Option} \{ \hyperlink{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager_a9cfd63ba078114fdb1994cfe5f0d2eeba27b77cb15d3da7ded0250d0001bc6755}{Update\+Order\+Option.\+Insert\+Update\+Delete} = 0, 
+\hyperlink{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager_a9cfd63ba078114fdb1994cfe5f0d2eeba894fcc001e51f673d3fb5f3096473dd8}{Update\+Order\+Option.\+Update\+Insert\+Delete} = 1
+ \}\begin{DoxyCompactList}\small\item\em Update Order Option /summary$>$ \end{DoxyCompactList}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual int \hyperlink{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager_a684a94d71f9fb112715e3a291f5eeb5b}{Update\+All} (\hyperlink{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event}{rpt\+\_\+\+Free\+Spaces\+On\+Event} data\+Set)
+\begin{DoxyCompactList}\small\item\em Update all changes to the dataset. /summary$>$ \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \hyperlink{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager_ade6a6bafa046f9fe7655a4c7eb5846e1}{Sort\+Self\+Reference\+Rows} (global\+::\+System.\+Data.\+Data\+Row\mbox{[}$\,$\mbox{]} rows, global\+::\+System.\+Data.\+Data\+Relation relation, bool child\+First)
+\item 
+virtual bool \hyperlink{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager_a8fef0fa6cf53820e2c852521ad0a0c89}{Match\+Table\+Adapter\+Connection} (global\+::\+System.\+Data.\+I\+Db\+Connection input\+Connection)
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager_a9cfd63ba078114fdb1994cfe5f0d2eeb}{Update\+Order\+Option} \hyperlink{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager_a26e14231d6c7fe79ffad82451e723224}{Update\+Order}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+bool \hyperlink{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager_a33bb69045bb1606f9aeb280699bf6f85}{Backup\+Data\+Set\+Before\+Update}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+global\+::\+System.\+Data.\+I\+Db\+Connection \hyperlink{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager_a719b880733d9ce3d2e2f309712eb4ddd}{Connection}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+int \hyperlink{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager_ad1d13a9fc55336985abff877dd354237}{Table\+Adapter\+Instance\+Count}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager}{Table\+Adapter\+Manager} is used to coordinate Table\+Adapters in the dataset to enable Hierarchical Update scenarios /summary$>$ 
+
+Definition at line 887 of file rpt\+\_\+\+Free\+Spaces\+On\+Event.\+Designer.\+cs.
+
+
+
+\subsection{Member Enumeration Documentation}
+\hypertarget{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager_a9cfd63ba078114fdb1994cfe5f0d2eeb}{}\label{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager_a9cfd63ba078114fdb1994cfe5f0d2eeb} 
+\index{prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager}!Update\+Order\+Option@{Update\+Order\+Option}}
+\index{Update\+Order\+Option@{Update\+Order\+Option}!prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager}}
+\subsubsection{\texorpdfstring{Update\+Order\+Option}{UpdateOrderOption}}
+{\footnotesize\ttfamily enum \hyperlink{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager_a9cfd63ba078114fdb1994cfe5f0d2eeb}{prj\+Progra\+I\+I\+I.\+rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters.\+Table\+Adapter\+Manager.\+Update\+Order\+Option}\hspace{0.3cm}{\ttfamily [strong]}}
+
+
+
+Update Order Option /summary$>$ 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Insert\+Update\+Delete@{Insert\+Update\+Delete}!prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager}}\index{prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager}!Insert\+Update\+Delete@{Insert\+Update\+Delete}}}\hypertarget{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager_a9cfd63ba078114fdb1994cfe5f0d2eeba27b77cb15d3da7ded0250d0001bc6755}{}\label{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager_a9cfd63ba078114fdb1994cfe5f0d2eeba27b77cb15d3da7ded0250d0001bc6755} 
+Insert\+Update\+Delete&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Update\+Insert\+Delete@{Update\+Insert\+Delete}!prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager}}\index{prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager}!Update\+Insert\+Delete@{Update\+Insert\+Delete}}}\hypertarget{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager_a9cfd63ba078114fdb1994cfe5f0d2eeba894fcc001e51f673d3fb5f3096473dd8}{}\label{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager_a9cfd63ba078114fdb1994cfe5f0d2eeba894fcc001e51f673d3fb5f3096473dd8} 
+Update\+Insert\+Delete&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+Definition at line 1136 of file rpt\+\_\+\+Free\+Spaces\+On\+Event.\+Designer.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager_a8fef0fa6cf53820e2c852521ad0a0c89}{}\label{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager_a8fef0fa6cf53820e2c852521ad0a0c89} 
+\index{prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager}!Match\+Table\+Adapter\+Connection@{Match\+Table\+Adapter\+Connection}}
+\index{Match\+Table\+Adapter\+Connection@{Match\+Table\+Adapter\+Connection}!prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager}}
+\subsubsection{\texorpdfstring{Match\+Table\+Adapter\+Connection()}{MatchTableAdapterConnection()}}
+{\footnotesize\ttfamily virtual bool prj\+Progra\+I\+I\+I.\+rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters.\+Table\+Adapter\+Manager.\+Match\+Table\+Adapter\+Connection (\begin{DoxyParamCaption}\item[{global\+::\+System.\+Data.\+I\+Db\+Connection}]{input\+Connection }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Definition at line 1118 of file rpt\+\_\+\+Free\+Spaces\+On\+Event.\+Designer.\+cs.
+
+\hypertarget{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager_ade6a6bafa046f9fe7655a4c7eb5846e1}{}\label{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager_ade6a6bafa046f9fe7655a4c7eb5846e1} 
+\index{prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager}!Sort\+Self\+Reference\+Rows@{Sort\+Self\+Reference\+Rows}}
+\index{Sort\+Self\+Reference\+Rows@{Sort\+Self\+Reference\+Rows}!prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager}}
+\subsubsection{\texorpdfstring{Sort\+Self\+Reference\+Rows()}{SortSelfReferenceRows()}}
+{\footnotesize\ttfamily virtual void prj\+Progra\+I\+I\+I.\+rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters.\+Table\+Adapter\+Manager.\+Sort\+Self\+Reference\+Rows (\begin{DoxyParamCaption}\item[{global\+::\+System.\+Data.\+Data\+Row \mbox{[}$\,$\mbox{]}}]{rows,  }\item[{global\+::\+System.\+Data.\+Data\+Relation}]{relation,  }\item[{bool}]{child\+First }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Definition at line 1112 of file rpt\+\_\+\+Free\+Spaces\+On\+Event.\+Designer.\+cs.
+
+\hypertarget{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager_a684a94d71f9fb112715e3a291f5eeb5b}{}\label{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager_a684a94d71f9fb112715e3a291f5eeb5b} 
+\index{prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager}!Update\+All@{Update\+All}}
+\index{Update\+All@{Update\+All}!prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager}}
+\subsubsection{\texorpdfstring{Update\+All()}{UpdateAll()}}
+{\footnotesize\ttfamily virtual int prj\+Progra\+I\+I\+I.\+rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters.\+Table\+Adapter\+Manager.\+Update\+All (\begin{DoxyParamCaption}\item[{\hyperlink{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event}{rpt\+\_\+\+Free\+Spaces\+On\+Event}}]{data\+Set }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Update all changes to the dataset. /summary$>$ 
+
+
+
+Definition at line 1001 of file rpt\+\_\+\+Free\+Spaces\+On\+Event.\+Designer.\+cs.
+
+
+
+\subsection{Property Documentation}
+\hypertarget{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager_a33bb69045bb1606f9aeb280699bf6f85}{}\label{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager_a33bb69045bb1606f9aeb280699bf6f85} 
+\index{prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager}!Backup\+Data\+Set\+Before\+Update@{Backup\+Data\+Set\+Before\+Update}}
+\index{Backup\+Data\+Set\+Before\+Update@{Backup\+Data\+Set\+Before\+Update}!prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager}}
+\subsubsection{\texorpdfstring{Backup\+Data\+Set\+Before\+Update}{BackupDataSetBeforeUpdate}}
+{\footnotesize\ttfamily bool prj\+Progra\+I\+I\+I.\+rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters.\+Table\+Adapter\+Manager.\+Backup\+Data\+Set\+Before\+Update\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 908 of file rpt\+\_\+\+Free\+Spaces\+On\+Event.\+Designer.\+cs.
+
+\hypertarget{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager_a719b880733d9ce3d2e2f309712eb4ddd}{}\label{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager_a719b880733d9ce3d2e2f309712eb4ddd} 
+\index{prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager}!Connection@{Connection}}
+\index{Connection@{Connection}!prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager}}
+\subsubsection{\texorpdfstring{Connection}{Connection}}
+{\footnotesize\ttfamily global.\+System.\+Data.\+I\+Db\+Connection prj\+Progra\+I\+I\+I.\+rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters.\+Table\+Adapter\+Manager.\+Connection\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 920 of file rpt\+\_\+\+Free\+Spaces\+On\+Event.\+Designer.\+cs.
+
+\hypertarget{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager_ad1d13a9fc55336985abff877dd354237}{}\label{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager_ad1d13a9fc55336985abff877dd354237} 
+\index{prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager}!Table\+Adapter\+Instance\+Count@{Table\+Adapter\+Instance\+Count}}
+\index{Table\+Adapter\+Instance\+Count@{Table\+Adapter\+Instance\+Count}!prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager}}
+\subsubsection{\texorpdfstring{Table\+Adapter\+Instance\+Count}{TableAdapterInstanceCount}}
+{\footnotesize\ttfamily int prj\+Progra\+I\+I\+I.\+rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters.\+Table\+Adapter\+Manager.\+Table\+Adapter\+Instance\+Count\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Definition at line 935 of file rpt\+\_\+\+Free\+Spaces\+On\+Event.\+Designer.\+cs.
+
+\hypertarget{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager_a26e14231d6c7fe79ffad82451e723224}{}\label{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager_a26e14231d6c7fe79ffad82451e723224} 
+\index{prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager}!Update\+Order@{Update\+Order}}
+\index{Update\+Order@{Update\+Order}!prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager@{prj\+Progra\+I\+I\+I\+::rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters\+::\+Table\+Adapter\+Manager}}
+\subsubsection{\texorpdfstring{Update\+Order}{UpdateOrder}}
+{\footnotesize\ttfamily \hyperlink{classprj_progra_i_i_i_1_1rpt___free_spaces_on_event_table_adapters_1_1_table_adapter_manager_a9cfd63ba078114fdb1994cfe5f0d2eeb}{Update\+Order\+Option} prj\+Progra\+I\+I\+I.\+rpt\+\_\+\+Free\+Spaces\+On\+Event\+Table\+Adapters.\+Table\+Adapter\+Manager.\+Update\+Order\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Definition at line 897 of file rpt\+\_\+\+Free\+Spaces\+On\+Event.\+Designer.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+One\+Drive/\+Workspace/\+Proyecto\+Progra/\+Aplicacion C\#/prj\+Progra\+I\+I\+I/prj\+Progra\+I\+I\+I/\hyperlink{rpt___free_spaces_on_event_8_designer_8cs}{rpt\+\_\+\+Free\+Spaces\+On\+Event.\+Designer.\+cs}\end{DoxyCompactItemize}

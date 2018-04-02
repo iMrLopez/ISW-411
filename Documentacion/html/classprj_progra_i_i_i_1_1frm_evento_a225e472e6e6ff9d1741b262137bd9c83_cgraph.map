@@ -1,0 +1,7 @@
+<map id="prjPrograIII.frmEvento.frmEvento" name="prjPrograIII.frmEvento.frmEvento">
+<area shape="rect" id="node2" href="$interface_interfaces_1_1_i_b_l_l_evento.html#a5e0e267f475664adbac7b86dc847a1a7" title="Interfaces.IBLLEvento.Borrar" alt="" coords="220,5,407,32"/>
+<area shape="rect" id="node3" href="$interface_interfaces_1_1_i_b_l_l_evento.html#ad26c4dba0bce0ce649b1e68e21cc194a" title="Interfaces.IBLLEvento.Insert" alt="" coords="222,56,405,83"/>
+<area shape="rect" id="node4" href="$interface_interfaces_1_1_i_b_l_l_evento.html#a2573cdfaf0097cfcf185b39ddaede2d8" title="Interfaces.IBLLEvento.GetAll" alt="" coords="220,107,407,133"/>
+<area shape="rect" id="node5" href="$interface_interfaces_1_1_i_b_l_l_tipo_evento.html#a9491bc76d279f88a5f33ce3a63c84302" title="Interfaces.IBLLTipoEvento.\lGetAll" alt="" coords="226,158,401,199"/>
+<area shape="rect" id="node6" href="$interface_interfaces_1_1_i_b_l_l_localidad.html#afc2e7478f3ffcee4730c47a9cfb0cfca" title="Interfaces.IBLLLocalidad.\lGetAll" alt="" coords="230,223,397,265"/>
+</map>
